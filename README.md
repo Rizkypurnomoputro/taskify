@@ -15,6 +15,8 @@ Taskify adalah aplikasi To-Do sederhana berbasis **Vanilla JavaScript** yang dir
 ---
 
 ## 📁 Struktur Folder
+
+```
 taskify/
 ├── index.html          # HTML utama, di-link ke main.js
 ├── style.css           # File styling utama
@@ -26,4 +28,4 @@ taskify/
 │   ├── dom.js          # Fungsi untuk render task ke DOM
 │   └── dragndrop.js    # (Belum selesai) Logika drag & drop task
 └── assets/             # Gambar/icon (jika diperlukan)
-
+```
