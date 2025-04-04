@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Just Plan And Do</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Just Do it</h1>
+    </header>
+
+    <main>
+      <section class="input-section">
+        <form id="todo-form" autocomplete="off">
+          <input
+            type="text"
+            id="todo-input"
+            placeholder="Add a new task"
+            aria-label="Task input"
+            required
+          />
+          <button type="submit">Add</button>
+        </form>
+      </section>
+
+      <section class="tasks-section">
+        <ul id="todo-list" aria-label="List of tasks">
+          <!-- Tasks will be inserted here dynamically -->
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 To-Do List by Rizky Purnomo(not completed yet)</p>
+    </footer>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

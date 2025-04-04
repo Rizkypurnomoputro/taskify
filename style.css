@@ -1,0 +1,40 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+  background: #f9f9f9;
+}
+
+main {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+#todo-list li {
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #666;
+}
