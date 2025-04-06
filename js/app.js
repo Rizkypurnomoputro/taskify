@@ -18,4 +18,15 @@ export function initApp() {
     renderTasks(tasks, list);
     input.value = "";
   });
+  // user can delete tasks by clicking on them
+  // list.addEventListener("click", (e) => {
+  //   if (e.target.tagName === "LI") {
+  //     const index = Array.from(list.children).indexOf(e.target);
+  //     tasks.splice(index, 1);
+  //     saveTasks(tasks);
+  //     renderTasks(tasks, list);
+  //   }
+  // });
 }
+
+initApp();
